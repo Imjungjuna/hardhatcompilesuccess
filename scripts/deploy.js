@@ -6,7 +6,7 @@ async function main() {
 
   console.log("Deploying contracts with the account:", deployer.address);
 
-  const game = await ethers.deployContract("Easy");
+  const game = await ethers.deployContract("PredictGame");
 
   console.log("Game address:", await game.getAddress());
 }

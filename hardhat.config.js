@@ -14,5 +14,11 @@ module.exports = {
       accounts: [SEPOLIA_PRIVATE_KEY],
       gasPrice: 10000000000,
     }
+  },
+  paths: {
+    artifacts: "./artifacts",
+    cache: "./cache",
+    sources: "./contracts",
+    tests: "./test",
   }
 };
